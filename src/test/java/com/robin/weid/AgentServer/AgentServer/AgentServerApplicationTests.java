@@ -1,4 +1,4 @@
-package com.robin.weid.AgentServer;
+package com.robin.weid.AgentServer.AgentServer;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
