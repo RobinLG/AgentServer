@@ -7,7 +7,7 @@ public class LoginLog {
     private int loginLog;
     private int userId;
     private String ip;
-    private Date lgoinDate;
+    private Date loginDate;
 
     public int getLoginLog() {
         return loginLog;
@@ -33,11 +33,11 @@ public class LoginLog {
         this.ip = ip;
     }
 
-    public Date getLgoinDate() {
-        return lgoinDate;
+    public Date getLoginDate() {
+        return loginDate;
     }
 
-    public void setLgoinDate(Date lgoinDate) {
-        this.lgoinDate = lgoinDate;
+    public void setLoginDate(Date loginDate) {
+        this.loginDate = loginDate;
     }
 }
