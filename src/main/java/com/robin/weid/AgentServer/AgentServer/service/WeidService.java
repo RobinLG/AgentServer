@@ -2,10 +2,10 @@ package com.robin.weid.AgentServer.AgentServer.service;
 
 import com.webank.weid.protocol.base.CptBaseInfo;
 import com.webank.weid.protocol.base.WeIdPrivateKey;
+import com.webank.weid.protocol.inf.Hashable;
 import com.webank.weid.protocol.response.CreateWeIdDataResult;
 import com.webank.weid.protocol.response.ResponseData;
 
-import java.util.Hashtable;
 import java.util.Map;
 
 public interface WeidService {
@@ -54,7 +54,7 @@ public interface WeidService {
      *                It supports Credential, CredentialWrapper, CredentialPojo recently.
      * @param weIdPrivateKey the private key of the publisher
      */
-    ResponseData<Boolean> saveEvidence(Hashtable object, WeIdPrivateKey weIdPrivateKey);
+    ResponseData<Boolean> saveEvidence(Hashable object, WeIdPrivateKey weIdPrivateKey);
 
 
 }
